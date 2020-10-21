@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>평균값 계산하기(반복문)</title>
+</head>
+<body>
+    <script>
+        var sum = 0;
+        var i = 1;
+        var totalNumbers = Number(prompt('숫자의 개수를 입력해주세요.'));
+
+        while(i <= totalNumbers){
+            var value = prompt(i + '번 숫자를 입력하세요.');
+
+            sum += Number(value);
+            i++;
+        }
+
+        var avg = sum / totalNumbers;
+
+        alert('평균값 : ' + avg);
+    </script>
+    
+</body>
+</html>

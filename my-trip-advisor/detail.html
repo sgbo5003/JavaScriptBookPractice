@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이 트립 어드바이저 - 상세보기</title>
+    <link rel="stylesheet" href="./libs/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header" class="inverted">
+            <div>
+                <a href="./index.html"><span></span></a>
+                <div class="menu-items right">
+                    <a href="mytrip.html">마이트립</a>
+                    <img src="./images/line_maintop_gray.png" alt="">
+                    <a href="register.html">회원가입</a>
+                </div>
+            </div>
+        </div>
+        <div id="body" class="detail">
+            <div class="detail-container">
+                <div class="detail-header">
+                    <img src="./images/icon_list_location.png" alt="">
+                    <div class="detail-header-name">에코랜드 테마파크</div> | <span class="detail-header-city-name">제주시</span>
+                    <button class="btn-register">여행지 등록하기</button>
+                </div>
+                <div id="detail-images"><img src="./images/ecoland.jpg" alt=""></div>
+                <div class="detail-desc">
+                    <div class="detail-title">장소 소개</div>
+                    <div class="detail-desc-text">에코랜드는 제주특별자치도 제주시 조천읍 대흘리에 위치한 테마파크이다. 에코랜드 테마파크와 에코랜드 골프&리조트으로 나뉜다. 테마파크는 기차를 타며 숲을 구경할 수 있게 되어 있으며 숲은 각각 4개의 역으로 구성되어있다. 기차를 타고 간이역으로 내려 관람할 수 있다.</div>
+                </div>
+                <div class="detail-map">
+                    <div class="detail-title">지도</div>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./libs/jquery-3.5.1.min.js"></script>
+    <script src="./scripts/detail.js"></script>
+</body>
+</html>
